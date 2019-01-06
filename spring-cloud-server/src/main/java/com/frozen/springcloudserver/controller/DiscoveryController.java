@@ -1,8 +1,7 @@
-package com.frozen.springcloudclient.controller;
+package com.frozen.springcloudserver.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.frozen.springcloudserver.spi.rest.DiscoveryRestController;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -11,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description:
  */
 @RestController
-public class DiscoveryController {
+public class DiscoveryController implements DiscoveryRestController {
 
     @Value("${server.port}")
     private String ip;
 
-    @GetMapping("/client")
-    public String client() {
-        String services = "spring-cloud-eureka-client  ip :"+ip;
+    @Override
+    public String server() {
+        String services = "spring-cloud-eureka-server  ip :"+ip;
 
         System.out.println(services);
         return services;

@@ -10,6 +10,7 @@
     <version>1.0</version>
     <modules>
         <module>J-frozen-constants</module>
+        <module>spring-cloud-server-spi</module>
     </modules>
     <name>J-frozen</name>
     <properties>

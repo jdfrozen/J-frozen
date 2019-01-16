@@ -49,6 +49,8 @@ public class OperatorAspect {
         System.out.println("AOP Aronud before...");
         Method method = ((MethodSignature) pjp.getSignature()).getMethod();
         AopAnnocation annotation = method.getAnnotation(AopAnnocation.class);
+        //方法参数
+        Object[] args = pjp.getArgs();
         try {
             return pjp.proceed();
         } catch (Throwable e) {

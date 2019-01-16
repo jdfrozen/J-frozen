@@ -53,12 +53,6 @@
             <version>1.0</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.frozen</groupId>
-            <artifactId>spring-cloud-server-spi</artifactId>
-            <version>1.0</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
 
     <dependencyManagement>

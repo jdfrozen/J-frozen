@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="J-frozen-constants" />
+        <module name="javalog" />
+        <module name="spring-cloud-server-spi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="J-frozen" target="1.8" />
+      <module name="J-frozen-constants" target="1.8" />
+      <module name="javalog" target="1.8" />
+      <module name="spring-cloud-server-spi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -11,6 +11,7 @@
     <modules>
         <module>J-frozen-constants</module>
         <module>spring-cloud-server-spi</module>
+        <module>java-log</module>
     </modules>
     <name>J-frozen</name>
     <properties>

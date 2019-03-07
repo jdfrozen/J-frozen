@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/J-frozen.iml" filepath="$PROJECT_DIR$/J-frozen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/J-frozen-constants/J-frozen-constants.iml" filepath="$PROJECT_DIR$/J-frozen-constants/J-frozen-constants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-log/javalog.iml" filepath="$PROJECT_DIR$/java-log/javalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-server-spi/spring-cloud-server-spi.iml" filepath="$PROJECT_DIR$/spring-cloud-server-spi/spring-cloud-server-spi.iml" />
+    </modules>
+  </component>
+</project>

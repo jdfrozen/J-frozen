@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>J-frozen</artifactId>
         <groupId>com.frozen</groupId>
         <version>1.0</version>
     </parent>
-    <groupId>com.frozen</groupId>
-    <artifactId>java-log</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>java-log</name>
-    <description>Demo project for Spring Boot</description>
+    <modelVersion>4.0.0</modelVersion>
 
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+    <artifactId>java-log</artifactId>
 
     <dependencies>
         <!--slf4j-->
@@ -72,14 +66,4 @@
             <version>1.7.25</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>

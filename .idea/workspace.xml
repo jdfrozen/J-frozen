@@ -2,328 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0f7bc1-048f-44e2-824f-ba65323f4bac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J-frozen-constants/J-frozen-constants.iml" beforeDir="false" afterPath="$PROJECT_DIR$/J-frozen-constants/J-frozen-constants.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J-frozen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/J-frozen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-log/java-log.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/ctl/HealthCheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/job/ClientDataJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxl-job-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-log/javalog.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java-log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-log/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/JclMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Log4j2Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Log4jMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Sl4jMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-log/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-redis/src/main/java/com/frozen/redis/conf/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-redis/src/main/java/com/frozen/redis/utils/RedisClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-redis/src/test/java/com/frozen/redis/data/StringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-log/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-log/target/classes/com/frozen/javalog/example/JclMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-log/target/classes/com/frozen/javalog/example/Log4j2Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-log/target/classes/com/frozen/javalog/example/Log4jMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-log/target/classes/com/frozen/javalog/example/Sl4jMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-log/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-log/target/classes/log4j2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/ShardingAlgorithm/StudentSingleKeyDatabaseShardingAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/ShardingAlgorithm/StudentSingleKeyTableShardingAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/ShardingAlgorithm/UserSingleKeyDatabaseShardingAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/ShardingAlgorithm/UserSingleKeyTableShardingAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/ShardingJdbcApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/conf/DefaultDataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/dao/StudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/po/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/po/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/java/com/frozen/shardingjdbc/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/resources/init.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/main/resources/mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding-jdbc/src/test/java/com/frozen/shardingjdbc/ShardingJdbcApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/frozen/springaop/SpringAopApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/frozen/springaop/annocation/AopAnnocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/frozen/springaop/aop/OperatorAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/frozen/springaop/controller/HealthCheckController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/test/java/com/frozen/springaop/SpringAopApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-client/src/main/java/com/frozen/springcloudclient/SpringcloudclientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-client/src/main/java/com/frozen/springcloudclient/controller/DiscoveryClientController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-client/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-client/src/test/java/com/frozen/springcloudclient/SpringcloudclientApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/src/main/java/com/frozen/springcloudeureka/SpringCloudEurekaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server-spi/spring-cloud-server-spi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-server-spi/spring-cloud-server-spi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/frozen/springcloudserver/SpringCloudServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/frozen/springcloudserver/controller/DiscoveryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/src/test/java/com/frozen/springcloudserver/SpringCloudServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/XxlJobBootApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/config/CommonConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/config/FreeMarkConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/config/InterceptorConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/config/SpringConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/HealthCheckController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/JobApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/JobCodeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/JobGroupController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/JobInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/JobLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/annotation/PermessionLimit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/interceptor/CookieInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/interceptor/PermissionInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/controller/resolver/WebExceptionResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/conf/XxlJobAdminConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/jobbean/RemoteHttpJobBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/model/XxlJobGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/model/XxlJobInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/model/XxlJobLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/model/XxlJobLogGlue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/model/XxlJobRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/ExecutorRouteStrategyEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/ExecutorRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteBusyover.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteConsistentHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteFailover.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteFirst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteLFU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteLRU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteLast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/route/strategy/ExecutorRouteRound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/schedule/XxlJobDynamicScheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/thread/JobFailMonitorHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/thread/JobRegistryMonitorHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/thread/JobTriggerPoolHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/trigger/XxlJobTrigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/util/CookieUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/util/FtlUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/util/I18nUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/util/LocalCacheUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/core/util/MailUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/dao/XxlJobGroupDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/dao/XxlJobInfoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/dao/XxlJobLogDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/dao/XxlJobLogGlueDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/dao/XxlJobRegistryDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/service/XxlJobService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/service/impl/AdminBizImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/service/impl/XxlJobServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/i18n/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/i18n/message_en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/mybatis-mapper/XxlJobGroupMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/mybatis-mapper/XxlJobInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/mybatis-mapper/XxlJobLogGlueMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/mybatis-mapper/XxlJobLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/mybatis-mapper/XxlJobRegistryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/quartz.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/AdminLTE-local.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/AdminLTE.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM40tgx99jmYGv_xzYuwd1rU.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM7YHq4FgHI02B8rPccK0FJQ.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY[0].woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6CzM2XYAq8cDhaXsrN8WXcA.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6E78GtRp3lhchupCJNw8t58.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6GQKuzMuncr0JB710wa2dPI.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6Lpx497t94oDua8KfAL9f-E.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6MAjkyiewWYrWZc50I8hK7I.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6OXKTZYPNtG1yMB_YJSqlic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGClYwVOhDRq2vbpGRTZ7bbs.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDRVvBvQIc1z78c__uoBcyI.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGD_j0nMiB9fPhg_k1wdK2h0.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDovqjS_dXPZszO_XltPdNg.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFKFh1TDTPrUZWzVp6FtpG8.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFxe-GPfKKFmiXaJ_Q0GFr8.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/google-local/local.google.fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/css/skins/_all-skins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/dist/js/app.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/jquery.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/datatables/jquery.dataTables_themeroller.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/daterangepicker/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/daterangepicker/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/fastclick/fastclick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/icheck.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/square.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/square@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/iCheck/square/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/js/common.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/js/jobcode.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/js/jobgroup.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/js/jobinfo.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/js/joblog.detail.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/js/joblog.index.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/js/login.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/addon/hint/show-hint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/addon/hint/show-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/lib/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/lib/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/mode/clike/clike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/mode/php/php.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/mode/python/python.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/codemirror/mode/shell/shell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/echarts/echarts.common.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/ionicons-2.0.1/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/jquery/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/jquery/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/layer/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/pace/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/pace/themes/pace-theme-bounce.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/static/plugins/pace/themes/pace-theme-flash.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/common/common.exception.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/common/common.macro.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/help.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/jobcode/jobcode.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/jobgroup/jobgroup.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/jobinfo/jobinfo.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/joblog/joblog.detail.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/joblog/joblog.index.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/main/resources/templates/login.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-boot/src/test/java/com/frozen/xxljobboot/XxlJobBootApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/XxlJobClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/config/XxlJobConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/ctl/HealthCheckController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/job/ClientDataJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxl-job-client/src/test/java/com/frozen/xxljobclient/XxlJobClientApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-server-spi/target/" />
     <ignored path="$PROJECT_DIR$/J-frozen-constants/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/java-log/target/" />
+    <ignored path="$PROJECT_DIR$/xxl-job-boot/target/" />
+    <ignored path="$PROJECT_DIR$/xxl-job-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,8 +65,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>javalog</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\filelearn\projectGithub\J-frozen\java-log</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java-log/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-job-client/pom.xml" />
+        <option value="$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/XxlJobClientApplication.java" />
+        <option value="$PROJECT_DIR$/xxl-job-boot/pom.xml" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -372,27 +122,63 @@
             <path>
               <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
               <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="java-log" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-boot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
               <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="java-log" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-boot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
               <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="java-log" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-boot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
               <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
-              <item name="java-log" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-boot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J-frozen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J-frozen" type="462c0819:PsiDirectoryNode" />
+              <item name="xxl-job-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xxljobclient" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,7 +191,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551969580813" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551971163319" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -415,7 +201,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\filelearn\projectGithub\J-frozen\xxl-job-boot\src\main\resources" />
+      <recent name="D:\filelearn\projectGithub\J-frozen\xxl-job-client\src\main\java\com\frozen\xxljobclient" />
+      <recent name="D:\filelearn\projectGithub\J-frozen\xxl-job-client\src\main\resources" />
+      <recent name="D:\filelearn\projectGithub\J-frozen\java-log\src\main\java" />
+      <recent name="D:\filelearn\projectGithub\J-frozen\java-log\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\filelearn\projectGithub\J-frozen\xxl-job-boot\src\main" />
+      <recent name="D:\filelearn\projectGithub\J-frozen\xxl-job-boot" />
       <recent name="D:\filelearn\projectGithub\J-frozen\spring-cloud-server" />
     </key>
   </component>
@@ -431,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Sl4jMain">
     <configuration name="Sl4jMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.frozen.javalog.example.Sl4jMain" />
       <module name="javalog" />
@@ -441,6 +236,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XxlJobBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xxl-job-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frozen.xxljobboot.XxlJobBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XxlJobClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xxl-job-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frozen.xxljobclient.XxlJobClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -464,17 +273,17 @@
       <workItem from="1551603201356" duration="1040000" />
       <workItem from="1551604531064" duration="270000" />
       <workItem from="1551795475649" duration="928000" />
-      <workItem from="1551965315232" duration="1437000" />
+      <workItem from="1551965315232" duration="3091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3675000" />
+    <option name="totallyTimeSpent" value="5329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16756032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.230563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -483,18 +292,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.09773371" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.4036827" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -533,9 +343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -543,15 +350,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-log/pom.xml">
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/Sl4jMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/javalog.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-log/src/main/java/com/frozen/javalog/example/JclMain.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-client/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/config/XxlJobConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-boot/src/main/java/com/frozen/xxljobboot/XxlJobBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-client/src/main/java/com/frozen/xxljobclient/XxlJobClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="124" column="35" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxl-job-boot/resources/i18n/message.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>xxl-job-boot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

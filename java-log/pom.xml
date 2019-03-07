@@ -10,7 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>java-log</artifactId>
-
     <dependencies>
         <!--slf4j-->
         <dependency>
@@ -66,4 +65,5 @@
             <version>1.7.25</version>
         </dependency>
     </dependencies>
+
 </project>

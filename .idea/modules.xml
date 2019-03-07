@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/J-frozen.iml" filepath="$PROJECT_DIR$/J-frozen.iml" />
       <module fileurl="file://$PROJECT_DIR$/J-frozen-constants/J-frozen-constants.iml" filepath="$PROJECT_DIR$/J-frozen-constants/J-frozen-constants.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-log/javalog.iml" filepath="$PROJECT_DIR$/java-log/javalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-log/java-log.iml" filepath="$PROJECT_DIR$/java-log/java-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-server-spi/spring-cloud-server-spi.iml" filepath="$PROJECT_DIR$/spring-cloud-server-spi/spring-cloud-server-spi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-boot/xxl-job-boot.iml" filepath="$PROJECT_DIR$/xxl-job-boot/xxl-job-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-client/xxl-job-client.iml" filepath="$PROJECT_DIR$/xxl-job-client/xxl-job-client.iml" />
     </modules>
   </component>
 </project>

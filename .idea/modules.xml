@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/J-frozen.iml" filepath="$PROJECT_DIR$/J-frozen.iml" />
-      <module fileurl="file://$PROJECT_DIR$/J-frozen-constants/J-frozen-constants.iml" filepath="$PROJECT_DIR$/J-frozen-constants/J-frozen-constants.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-log/java-log.iml" filepath="$PROJECT_DIR$/java-log/java-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-jdbc/sharding-jdbc.iml" filepath="$PROJECT_DIR$/sharding-jdbc/sharding-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-server-spi/spring-cloud-server-spi.iml" filepath="$PROJECT_DIR$/spring-cloud-server-spi/spring-cloud-server-spi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-client/spring-cloud-client.iml" filepath="$PROJECT_DIR$/spring-cloud-client/spring-cloud-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job-boot/xxl-job-boot.iml" filepath="$PROJECT_DIR$/xxl-job-boot/xxl-job-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job-client/xxl-job-client.iml" filepath="$PROJECT_DIR$/xxl-job-client/xxl-job-client.iml" />
     </modules>

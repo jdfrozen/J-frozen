@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="J-frozen-constants" />
         <module name="java-log" />
         <module name="sharding-jdbc" />
         <module name="spring-aop" />
-        <module name="spring-cloud-server-spi" />
+        <module name="spring-cloud-client" />
+        <module name="spring-cloud-eureka" />
         <module name="xxl-job-boot" />
         <module name="xxl-job-client" />
       </profile>
@@ -22,6 +22,8 @@
       <module name="javalog" target="1.8" />
       <module name="sharding-jdbc" target="1.8" />
       <module name="spring-aop" target="1.8" />
+      <module name="spring-cloud-client" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-server-spi" target="1.8" />
       <module name="xxl-job-boot" target="1.8" />
       <module name="xxl-job-client" target="1.5" />
@@ -31,6 +33,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sharding-jdbc" options="" />
       <module name="spring-aop" options="" />
+      <module name="spring-cloud-client" options="-parameters" />
+      <module name="spring-cloud-eureka" options="-parameters" />
       <module name="xxl-job-boot" options="" />
       <module name="xxl-job-client" options="-parameters" />
     </option>

@@ -8,11 +8,15 @@
         <option value="$PROJECT_DIR$/xxl-job-boot/pom.xml" />
         <option value="$PROJECT_DIR$/spring-aop/pom.xml" />
         <option value="$PROJECT_DIR$/sharding-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/J-frozen-constants/pom.xml" />
         <option value="$PROJECT_DIR$/java-log/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-spi/pom.xml" />
       </set>
     </option>
   </component>

@@ -13,6 +13,7 @@
         <module name="spring-cloud-eureka" />
         <module name="xxl-job-boot" />
         <module name="xxl-job-client" />
+        <module name="zookeeper-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="spring-cloud-server-spi" target="1.8" />
       <module name="xxl-job-boot" target="1.8" />
       <module name="xxl-job-client" target="1.5" />
+      <module name="zookeeper-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job-boot/xxl-job-boot.iml" filepath="$PROJECT_DIR$/xxl-job-boot/xxl-job-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job-client/xxl-job-client.iml" filepath="$PROJECT_DIR$/xxl-job-client/xxl-job-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-client/zookeeper-client.iml" filepath="$PROJECT_DIR$/zookeeper-client/zookeeper-client.iml" />
     </modules>
   </component>
 </project>

@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="emq-consumer" />
+        <module name="emq-producer" />
         <module name="java-log" />
         <module name="sharding-jdbc" />
         <module name="spring-aop" />
@@ -17,6 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="emq-consumer" target="1.8" />
+      <module name="emq-producer" target="1.8" />
       <module name="J-frozen" target="1.8" />
       <module name="J-frozen-constants" target="1.8" />
       <module name="java-log" target="1.8" />
@@ -27,18 +31,20 @@
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-server-spi" target="1.8" />
       <module name="xxl-job-boot" target="1.8" />
-      <module name="xxl-job-client" target="1.5" />
+      <module name="xxl-job-client" target="1.8" />
       <module name="zookeeper-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="emq-consumer" options="-parameters" />
+      <module name="emq-producer" options="-parameters" />
       <module name="sharding-jdbc" options="" />
       <module name="spring-aop" options="" />
       <module name="spring-cloud-client" options="-parameters" />
       <module name="spring-cloud-eureka" options="-parameters" />
       <module name="xxl-job-boot" options="" />
-      <module name="xxl-job-client" options="-parameters" />
+      <module name="xxl-job-client" options="" />
     </option>
   </component>
 </project>

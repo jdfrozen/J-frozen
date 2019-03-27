@@ -13,6 +13,7 @@
         <module name="spring-aop" />
         <module name="spring-cloud-client" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-zuul" />
         <module name="xxl-job-boot" />
         <module name="xxl-job-client" />
         <module name="zookeeper-client" />
@@ -30,6 +31,7 @@
       <module name="spring-cloud-client" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-server-spi" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
       <module name="xxl-job-boot" target="1.8" />
       <module name="xxl-job-client" target="1.8" />
       <module name="zookeeper-client" target="1.8" />
@@ -43,6 +45,7 @@
       <module name="spring-aop" options="" />
       <module name="spring-cloud-client" options="-parameters" />
       <module name="spring-cloud-eureka" options="-parameters" />
+      <module name="spring-cloud-zuul" options="-parameters" />
       <module name="xxl-job-boot" options="" />
       <module name="xxl-job-client" options="" />
     </option>

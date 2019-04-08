@@ -45,8 +45,8 @@
       <module name="emq-producer" options="-parameters" />
       <module name="sharding-jdbc" options="" />
       <module name="spring-aop" options="" />
-      <module name="spring-cloud-client" options="-parameters" />
-      <module name="spring-cloud-eureka" options="-parameters" />
+      <module name="spring-cloud-client" options="" />
+      <module name="spring-cloud-eureka" options="" />
       <module name="spring-cloud-zuul" options="-parameters" />
       <module name="xxl-job-boot" options="" />
       <module name="xxl-job-client" options="" />

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/J-frozen.iml" filepath="$PROJECT_DIR$/J-frozen.iml" />
       <module fileurl="file://$PROJECT_DIR$/emq-consumer/emq-consumer.iml" filepath="$PROJECT_DIR$/emq-consumer/emq-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/emq-producer/emq-producer.iml" filepath="$PROJECT_DIR$/emq-producer/emq-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-server/io-server.iml" filepath="$PROJECT_DIR$/io-server/io-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-log/java-log.iml" filepath="$PROJECT_DIR$/java-log/java-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-jdbc/sharding-jdbc.iml" filepath="$PROJECT_DIR$/sharding-jdbc/sharding-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />

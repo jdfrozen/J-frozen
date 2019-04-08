@@ -4,7 +4,7 @@ import freemarker.ext.beans.BeansWrapper;
 import freemarker.template.TemplateHashModel;
 
 /**
- * ftl util
+ * ftl com.frozen.bio.util
  *
  * @author xuxueli 2018-01-17 20:37:48
  */

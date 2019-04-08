@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-@JobHandler(value = "xxl-job-client-job")
+@JobHandler(value = "xxl-job-com.frozen.bio.client-job")
 @Component
 @Slf4j
 public class ClientDataJob extends IJobHandler {
@@ -19,12 +19,12 @@ public class ClientDataJob extends IJobHandler {
     @Override
     public ReturnT<String> execute(String param) throws Exception {
 
-        XxlJobLogger.log("XXL-JOB api-server-statistical-job, Start.");
+        XxlJobLogger.log("XXL-JOB api-com.frozen.bio.server-statistical-job, Start.");
         try {
             log.info("执行时间："+new Date());
         } catch (Exception e) {
-            XxlJobLogger.log("XXL-JOB, api-server-statistical-job Failed." , e);
-            log.error("xxl-job, api-server-statistical-job failed", e);
+            XxlJobLogger.log("XXL-JOB, api-com.frozen.bio.server-statistical-job Failed." , e);
+            log.error("xxl-job, api-com.frozen.bio.server-statistical-job failed", e);
             return FAIL;
         }
         return SUCCESS;

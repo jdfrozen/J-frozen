@@ -3,9 +3,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    hostname: client
+    hostname: com.frozen.bio.client
 spring:
   application:
-    name: client
+    name: com.frozen.bio.client
 server:
   port: 8081

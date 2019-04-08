@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="emq-consumer" />
         <module name="emq-producer" />
+        <module name="io-server" />
         <module name="java-log" />
         <module name="sharding-jdbc" />
         <module name="spring-aop" />
@@ -22,6 +23,7 @@
     <bytecodeTargetLevel>
       <module name="emq-consumer" target="1.8" />
       <module name="emq-producer" target="1.8" />
+      <module name="io-server" target="1.8" />
       <module name="J-frozen" target="1.8" />
       <module name="J-frozen-constants" target="1.8" />
       <module name="java-log" target="1.8" />

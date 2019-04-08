@@ -37,7 +37,7 @@
         <!--mqtt-->
         <dependency>
             <groupId>org.eclipse.paho</groupId>
-            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+            <artifactId>org.eclipse.paho.com.frozen.bio.client.mqttv3</artifactId>
             <version>1.2.0</version>
         </dependency>
         <!--队列 disruptor-->

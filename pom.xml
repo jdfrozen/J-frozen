@@ -11,7 +11,8 @@
     <modules>
         <module>java-log</module>
         <module>java-log</module>
-        <module>zookeeper-client</module>
+        <module>zookeeper-com.frozen.bio.client</module>
+        <module>io-com.frozen.bio.server</module>
     </modules>
     <name>J-frozen</name>
     <properties>

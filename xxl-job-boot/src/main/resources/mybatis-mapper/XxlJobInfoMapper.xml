@@ -53,7 +53,7 @@
 		t.child_jobid
 	</sql>
 
-	<select id="pageList" parameterType="java.util.HashMap" resultMap="XxlJobInfo">
+	<select id="pageList" parameterType="java.com.frozen.bio.util.HashMap" resultMap="XxlJobInfo">
 		SELECT <include refid="Base_Column_List" />
 		FROM XXL_JOB_QRTZ_TRIGGER_INFO AS t
 		<trim prefix="WHERE" prefixOverrides="AND | OR" >
@@ -71,7 +71,7 @@
 		LIMIT #{offset}, #{pagesize}
 	</select>
 
-	<select id="pageListCount" parameterType="java.util.HashMap" resultType="int">
+	<select id="pageListCount" parameterType="java.com.frozen.bio.util.HashMap" resultType="int">
 		SELECT count(1)
 		FROM XXL_JOB_QRTZ_TRIGGER_INFO AS t
 		<trim prefix="WHERE" prefixOverrides="AND | OR" >
@@ -133,7 +133,7 @@
 		</selectKey>-->
 	</insert>
 
-	<select id="loadById" parameterType="java.util.HashMap" resultMap="XxlJobInfo">
+	<select id="loadById" parameterType="java.com.frozen.bio.util.HashMap" resultMap="XxlJobInfo">
 		SELECT <include refid="Base_Column_List" />
 		FROM XXL_JOB_QRTZ_TRIGGER_INFO AS t
 		WHERE t.id = #{id}
@@ -161,13 +161,13 @@
 		WHERE id = #{id}
 	</update>
 
-	<delete id="delete" parameterType="java.util.HashMap">
+	<delete id="delete" parameterType="java.com.frozen.bio.util.HashMap">
 		DELETE
 		FROM XXL_JOB_QRTZ_TRIGGER_INFO
 		WHERE id = #{id}
 	</delete>
 
-	<select id="getJobsByGroup" parameterType="java.util.HashMap" resultMap="XxlJobInfo">
+	<select id="getJobsByGroup" parameterType="java.com.frozen.bio.util.HashMap" resultMap="XxlJobInfo">
 		SELECT <include refid="Base_Column_List" />
 		FROM XXL_JOB_QRTZ_TRIGGER_INFO AS t
 		WHERE t.job_group = #{jobGroup}

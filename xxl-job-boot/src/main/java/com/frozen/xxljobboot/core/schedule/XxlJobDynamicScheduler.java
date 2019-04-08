@@ -30,7 +30,7 @@ import java.util.HashSet;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * base quartz scheduler util
+ * base quartz scheduler com.frozen.bio.util
  * @author xuxueli 2015-12-19 16:13:53
  */
 public final class XxlJobDynamicScheduler implements ApplicationContextAware {
@@ -75,7 +75,7 @@ public final class XxlJobDynamicScheduler implements ApplicationContextAware {
         // admin monitor run
         JobFailMonitorHelper.getInstance().start();
 
-        // admin-server(spring-mvc)
+        // admin-com.frozen.bio.server(spring-mvc)
         NetComServerFactory.putService(AdminBiz.class, XxlJobDynamicScheduler.adminBiz);
         NetComServerFactory.setAccessToken(accessToken);
 
@@ -105,7 +105,7 @@ public final class XxlJobDynamicScheduler implements ApplicationContextAware {
         JobFailMonitorHelper.getInstance().toStop();
     }
 
-    // ---------------------- executor-client ----------------------
+    // ---------------------- executor-com.frozen.bio.client ----------------------
     private static ConcurrentHashMap<String, ExecutorBiz> executorBizRepository = new ConcurrentHashMap<String, ExecutorBiz>();
     public static ExecutorBiz getExecutorBiz(String address) throws Exception {
         // valid
@@ -126,7 +126,7 @@ public final class XxlJobDynamicScheduler implements ApplicationContextAware {
         return executorBiz;
     }
 
-    // ---------------------- schedule util ----------------------
+    // ---------------------- schedule com.frozen.bio.util ----------------------
 
     /**
      * fill job info

@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emq-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emq-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-log" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sharding-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-aop" charset="UTF-8" />

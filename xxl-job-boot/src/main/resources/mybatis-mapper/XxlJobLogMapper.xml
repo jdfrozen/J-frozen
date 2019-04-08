@@ -167,7 +167,7 @@
 		</trim>
 	</select>
 
-    <select id="triggerCountByDay" resultType="java.util.Map" >
+    <select id="triggerCountByDay" resultType="java.com.frozen.bio.util.Map" >
 		SELECT
 			DATE_FORMAT(trigger_time,'%Y-%m-%d') triggerDay,
 			COUNT(handle_code) triggerDayCount,

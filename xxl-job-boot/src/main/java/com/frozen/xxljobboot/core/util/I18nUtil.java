@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * i18n util
+ * i18n com.frozen.bio.util
  *
  * @author xuxueli 2018-01-17 20:39:06
  */

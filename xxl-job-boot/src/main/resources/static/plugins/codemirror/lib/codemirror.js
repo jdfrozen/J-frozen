@@ -2742,7 +2742,7 @@
     return result;
   }
 
-  // Work around problem with bounding com.frozen.bio.client rects on ranges being
+  // Work around problem with bounding client rects on ranges being
   // returned incorrectly when zoomed on IE10 and below.
   function maybeUpdateRectForZooming(measure, rect) {
     if (!window.screen || screen.logicalXDPI == null ||
@@ -8516,7 +8516,7 @@
     return node;
   }
 
-  // Feature-detect IE's crummy com.frozen.bio.client rect reporting for bidi text
+  // Feature-detect IE's crummy client rect reporting for bidi text
   var badBidiRects;
   function hasBadBidiRects(measure) {
     if (badBidiRects != null) return badBidiRects;

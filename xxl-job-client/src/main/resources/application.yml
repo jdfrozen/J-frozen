@@ -4,7 +4,7 @@ app:
   tmpDir: ../logs/
 
 xxl.job.admin.addresses: http://localhost:8080
-xxl.job.executor.appname: xxl-job-com.frozen.bio.client
+xxl.job.executor.appname: xxl-job-client
 xxl.job.executor.port: 9997
 xxl.job.accessToken: 
 xxl.job.executor.ip: 127.0.0.1

@@ -8,15 +8,15 @@
         <version>1.0</version>
     </parent>
     <groupId>com.frozen</groupId>
-    <artifactId>xxl-job-com.frozen.bio.client</artifactId>
+    <artifactId>xxl-job-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>xxl-job-com.frozen.bio.client</name>
+    <name>xxl-job-client</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
         <xxl-job-core.version>1.9.2</xxl-job-core.version>
-        <jetty-com.frozen.bio.server.version>9.2.24.v20180105</jetty-com.frozen.bio.server.version>
+        <jetty-server.version>9.2.24.v20180105</jetty-server.version>
     </properties>
 
     <dependencies>
@@ -45,23 +45,23 @@
         <!-- jetty -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-com.frozen.bio.server</artifactId>
-            <version>${jetty-com.frozen.bio.server.version}</version>
+            <artifactId>jetty-server</artifactId>
+            <version>${jetty-server.version}</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-com.frozen.bio.util</artifactId>
-            <version>${jetty-com.frozen.bio.server.version}</version>
+            <artifactId>jetty-util</artifactId>
+            <version>${jetty-server.version}</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-http</artifactId>
-            <version>${jetty-com.frozen.bio.server.version}</version>
+            <version>${jetty-server.version}</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-io</artifactId>
-            <version>${jetty-com.frozen.bio.server.version}</version>
+            <version>${jetty-server.version}</version>
         </dependency>
     </dependencies>
 

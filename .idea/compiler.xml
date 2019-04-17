@@ -6,18 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="emq-consumer" />
+        <module name="emq-producer" />
+        <module name="io-server" />
         <module name="java-log" />
         <module name="sharding-jdbc" />
         <module name="spring-aop" />
         <module name="spring-boot-security" />
         <module name="spring-cloud-client" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-zuul" />
         <module name="xxl-job-boot" />
         <module name="xxl-job-client" />
         <module name="zookeeper-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="emq-consumer" target="1.8" />
+      <module name="emq-producer" target="1.8" />
+      <module name="io-server" target="1.8" />
       <module name="J-frozen" target="1.8" />
       <module name="J-frozen-constants" target="1.8" />
       <module name="java-log" target="1.8" />
@@ -28,15 +35,21 @@
       <module name="spring-cloud-client" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-server-spi" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
       <module name="xxl-job-boot" target="1.8" />
-      <module name="xxl-job-client" target="1.5" />
+      <module name="xxl-job-client" target="1.8" />
       <module name="zookeeper-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="emq-consumer" options="-parameters" />
+      <module name="emq-producer" options="-parameters" />
       <module name="sharding-jdbc" options="" />
       <module name="spring-aop" options="" />
+      <module name="spring-cloud-client" options="" />
+      <module name="spring-cloud-eureka" options="" />
+      <module name="spring-cloud-zuul" options="-parameters" />
       <module name="spring-boot-security" options="" />
       <module name="spring-cloud-client" options="-parameters" />
       <module name="spring-cloud-eureka" options="-parameters" />

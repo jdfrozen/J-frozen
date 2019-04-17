@@ -12,6 +12,7 @@
         <module>java-log</module>
         <module>java-log</module>
         <module>zookeeper-client</module>
+        <module>io-server</module>
     </modules>
     <name>J-frozen</name>
     <properties>

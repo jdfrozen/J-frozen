@@ -127,10 +127,4 @@ public class AdminBizImpl implements AdminBiz {
         return ReturnT.SUCCESS;
     }
 
-    @Override
-    public ReturnT<String> triggerJob(int jobId) {
-        JobTriggerPoolHelper.trigger(jobId, -1, I18nUtil.getString("jobconf_trigger_type_api"));
-        return ReturnT.SUCCESS;
-    }
-
 }

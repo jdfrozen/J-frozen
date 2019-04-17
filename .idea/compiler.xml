@@ -9,6 +9,7 @@
         <module name="java-log" />
         <module name="sharding-jdbc" />
         <module name="spring-aop" />
+        <module name="spring-boot-security" />
         <module name="spring-cloud-client" />
         <module name="spring-cloud-eureka" />
         <module name="xxl-job-boot" />
@@ -23,6 +24,7 @@
       <module name="javalog" target="1.8" />
       <module name="sharding-jdbc" target="1.8" />
       <module name="spring-aop" target="1.8" />
+      <module name="spring-boot-security" target="1.8" />
       <module name="spring-cloud-client" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="spring-cloud-server-spi" target="1.8" />
@@ -35,6 +37,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sharding-jdbc" options="" />
       <module name="spring-aop" options="" />
+      <module name="spring-boot-security" options="" />
       <module name="spring-cloud-client" options="-parameters" />
       <module name="spring-cloud-eureka" options="-parameters" />
       <module name="xxl-job-boot" options="" />

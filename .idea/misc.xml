@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/sharding-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-security/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

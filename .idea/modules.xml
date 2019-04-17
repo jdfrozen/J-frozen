@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/java-log/java-log.iml" filepath="$PROJECT_DIR$/java-log/java-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-jdbc/sharding-jdbc.iml" filepath="$PROJECT_DIR$/sharding-jdbc/sharding-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-security/spring-boot-security.iml" filepath="$PROJECT_DIR$/spring-boot-security/spring-boot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-client/spring-cloud-client.iml" filepath="$PROJECT_DIR$/spring-cloud-client/spring-cloud-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job-boot/xxl-job-boot.iml" filepath="$PROJECT_DIR$/xxl-job-boot/xxl-job-boot.iml" />

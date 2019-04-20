@@ -16,7 +16,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
  */
 public class SecurityMain1 {
     public static void main(String[] main){
-        InMemoryUserDetailsManager userDetailsManager = new InMemoryUserDetailsManager();
+        InMemoryUserDetailsManager userDetailsService = new InMemoryUserDetailsManager();
         String username = "admin";
         String password  = "123456";
         //可以添加加密算法
@@ -24,9 +24,9 @@ public class SecurityMain1 {
         //可以选择加密，对于下面的provider.setPasswordEncoder(passwordEncoder);
         passwordEncoder.encode(password);
         UserDetails userDetails = User.withUsername(username).password(password).roles("role").build();
-        userDetailsManager.createUser(userDetails);
+        userDetailsService.createUser(userDetails);
         DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-        provider.setUserDetailsService(userDetailsManager);
+        provider.setUserDetailsService(userDetailsService);
         //上面加密的同时，这里也要加密
         provider.setPasswordEncoder(passwordEncoder);
         //这个相当于外部输入的数据

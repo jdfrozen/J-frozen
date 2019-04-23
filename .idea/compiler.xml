@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="elastic-job-lite" />
         <module name="emq-consumer" />
         <module name="emq-producer" />
         <module name="io-server" />
@@ -22,6 +23,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="elastic-job-lite" target="1.8" />
       <module name="emq-consumer" target="1.8" />
       <module name="emq-producer" target="1.8" />
       <module name="io-server" target="1.8" />
@@ -47,14 +49,12 @@
       <module name="emq-producer" options="-parameters" />
       <module name="sharding-jdbc" options="" />
       <module name="spring-aop" options="" />
+      <module name="spring-boot-security" options="" />
       <module name="spring-cloud-client" options="" />
       <module name="spring-cloud-eureka" options="" />
-      <module name="spring-cloud-zuul" options="-parameters" />
-      <module name="spring-boot-security" options="" />
-      <module name="spring-cloud-client" options="-parameters" />
-      <module name="spring-cloud-eureka" options="-parameters" />
+      <module name="spring-cloud-zuul" options="" />
       <module name="xxl-job-boot" options="" />
-      <module name="xxl-job-client" options="-parameters" />
+      <module name="xxl-job-client" options="" />
     </option>
   </component>
 </project>

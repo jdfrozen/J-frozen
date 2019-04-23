@@ -1,5 +1,6 @@
 package com.frozen.springbootsecurity.main;
 
+import org.apache.tomcat.util.http.parser.Authorization;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.ProviderManager;
@@ -38,6 +39,7 @@ public class SecurityMain {
         result = manager.authenticate(authenticationToken);
         System.out.println(authenticationToken);
         System.out.println(result);
+
     }
 
 }

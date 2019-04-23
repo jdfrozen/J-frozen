@@ -13,6 +13,7 @@
         <module>java-log</module>
         <module>zookeeper-client</module>
         <module>io-server</module>
+        <module>elastic-job-lite</module>
     </modules>
     <name>J-frozen</name>
     <properties>

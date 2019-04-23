@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/J-frozen.iml" filepath="$PROJECT_DIR$/J-frozen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elastic-job-lite/elastic-job-lite.iml" filepath="$PROJECT_DIR$/elastic-job-lite/elastic-job-lite.iml" />
       <module fileurl="file://$PROJECT_DIR$/emq-consumer/emq-consumer.iml" filepath="$PROJECT_DIR$/emq-consumer/emq-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/emq-producer/emq-producer.iml" filepath="$PROJECT_DIR$/emq-producer/emq-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/io-server/io-server.iml" filepath="$PROJECT_DIR$/io-server/io-server.iml" />

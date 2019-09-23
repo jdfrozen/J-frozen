@@ -1,6 +1,6 @@
 package com.frozen.nettyws.init;
 
-import com.frozen.fimserver.handle.WebSocketHandle;
+import com.frozen.nettyws.handle.WebSocketHandle;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;

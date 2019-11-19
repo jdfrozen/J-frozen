@@ -9,11 +9,21 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>java-log</module>
-        <module>java-log</module>
-        <module>zookeeper-client</module>
-        <module>io-server</module>
         <module>elastic-job-lite</module>
+        <module>emq-consumer</module>
+        <module>emq-producer</module>
+        <module>java-log</module>
+        <module>netty-ws</module>
+        <module>raft-kv</module>
+        <module>sharding-jdbc</module>
+        <module>spring-aop</module>
+        <module>spring-boot-security</module>
+        <module>spring-cloud-client</module>
+        <module>spring-cloud-eureka</module>
+        <module>spring-cloud-zuul</module>
+        <module>xxl-job-boot</module>
+        <module>xxl-job-client</module>
+        <module>zookeeper-client</module>
     </modules>
     <name>J-frozen</name>
     <properties>

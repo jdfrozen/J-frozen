@@ -7,7 +7,7 @@ import com.frozen.raft.exception.RaftNotSupportException;
 
 /**
  *
- * @author 莫那·鲁道
+ * @author frozen
  */
 public abstract class RaftUserProcessor<T> extends AbstractUserProcessor<T> {
 

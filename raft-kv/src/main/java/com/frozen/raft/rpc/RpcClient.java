@@ -2,7 +2,7 @@ package com.frozen.raft.rpc;
 
 /**
  *
- * @author 莫那·鲁道
+ * @author frozen
  */
 public interface RpcClient {
 

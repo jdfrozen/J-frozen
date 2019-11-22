@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 public class RpcTest {
 	@Test
 	public void TestRpc(){
-		RpcServer RPC_SERVER=new DefaultRpcServer(8088);
+		RpcServer RPC_SERVER=new DefaultRpcServer(8088,null);
 		RPC_SERVER.start();
 		RpcClient rpcClient = new DefaultRpcClient();
 		Request request = Request.newBuilder().url("localhost:8088").build();

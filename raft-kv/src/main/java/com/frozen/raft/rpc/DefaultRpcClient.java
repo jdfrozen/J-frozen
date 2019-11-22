@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author 莫那·鲁道
+ * @author frozen
  */
 @Slf4j
 public class DefaultRpcClient implements RpcClient {

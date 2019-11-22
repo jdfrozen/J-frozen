@@ -28,7 +28,7 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 /**
  * 抽象机器节点, 初始为 follower, 角色随时变化.
- * @author 莫那·鲁道
+ * @author frozen
  */
 @Getter
 @Setter
@@ -507,14 +507,11 @@ public class DefaultNode<T> implements Node<T>, LifeCycle, ClusterMembershipChan
      * 4. 如果选举过程超时，再次发起一轮选举
      */
     class ElectionTask implements Runnable {
-
         @Override
         public void run() {
-
             if (status == LEADER) {
                 return;
             }
-
             long current = System.currentTimeMillis();
             // 基于 RAFT 的随机时间,解决冲突.
             electionTime = electionTime + ThreadLocalRandom.current().nextInt(50);
@@ -524,22 +521,15 @@ public class DefaultNode<T> implements Node<T>, LifeCycle, ClusterMembershipChan
             status = NodeStatus.CANDIDATE;
             LOGGER.error("node {} will become CANDIDATE and start election leader, current term : [{}], LastEntry : [{}]",
                 peerSet.getSelf(), currentTerm, logModule.getLast());
-
             preElectionTime = System.currentTimeMillis() + ThreadLocalRandom.current().nextInt(200) + 150;
-
             currentTerm = currentTerm + 1;
             // 推荐自己.
             votedFor = peerSet.getSelf().getAddr();
-
             List<Peer> peers = peerSet.getPeersWithOutSelf();
-
             ArrayList<Future> futureArrayList = new ArrayList<>();
-
             LOGGER.info("peerList size : {}, peer list content : {}", peers.size(), peers);
-
             // 向所有的同伴 发送请求
             for (Peer peer : peers) {
-
                 futureArrayList.add(RaftThreadPool.submit(new Callable() {
                     @Override
                     public Object call() throws Exception {
@@ -548,14 +538,12 @@ public class DefaultNode<T> implements Node<T>, LifeCycle, ClusterMembershipChan
                         if (last != null) {
                             lastTerm = last.getTerm();
                         }
-
                         RvoteParam param = RvoteParam.newBuilder().
                             term(currentTerm).
                             candidateId(peerSet.getSelf().getAddr()).
                             lastLogIndex(LongConvert.convert(logModule.getLastIndex())).
                             lastLogTerm(lastTerm).
                             build();
-
                         Request request = Request.newBuilder()
                             .cmd(Request.R_VOTE)
                             .obj(param)
@@ -566,7 +554,6 @@ public class DefaultNode<T> implements Node<T>, LifeCycle, ClusterMembershipChan
                             @SuppressWarnings("unchecked")
                             Response<RvoteResult> response = getRpcClient().send(request);
                             return response;
-
                         } catch (RaftRemotingException e) {
                             LOGGER.error("ElectionTask RPC Fail , URL : " + request.getUrl());
                             return null;
@@ -577,7 +564,6 @@ public class DefaultNode<T> implements Node<T>, LifeCycle, ClusterMembershipChan
 
             AtomicInteger success2 = new AtomicInteger(0);
             CountDownLatch latch = new CountDownLatch(futureArrayList.size());
-
             LOGGER.info("futureArrayList.size() : {}", futureArrayList.size());
             // 等待结果.
             for (Future future : futureArrayList) {

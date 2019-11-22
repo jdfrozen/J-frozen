@@ -16,7 +16,7 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  * 默认的一致性模块实现.
  *
- * @author 莫那·鲁道
+ * @author frozen
  */
 @Setter
 @Getter

@@ -6,7 +6,7 @@ import com.frozen.raft.common.Peer;
  *
  * 集群配置变更接口.
  *
- * @author 莫那·鲁道
+ * @author frozen
  */
 public interface ClusterMembershipChanges {
 

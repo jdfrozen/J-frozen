@@ -17,7 +17,7 @@ import java.io.File;
  *
  * 默认的状态机实现.
  *
- * @author 莫那·鲁道
+ * @author frozen
  */
 public class DefaultStateMachine implements StateMachine {
 

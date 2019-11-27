@@ -20,6 +20,7 @@ public class RaftNodeBootStrap {
     }
 
     public static void main0() throws Throwable {
+        //节点固定，若想节点可以动态，可以做成配置文件，或者再引入个配置中心？？？
         String[] peerAddr = {"localhost:8775","localhost:8776","localhost:8777", "localhost:8778", "localhost:8779"};
         NodeConfig config = new NodeConfig();
         // 自身节点

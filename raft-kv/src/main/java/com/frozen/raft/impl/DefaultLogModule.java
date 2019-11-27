@@ -21,7 +21,7 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
  * 默认的日志实现. 日志模块不关心 key, 只关心 index.
  *
  * @author frozen
- * @see cn.think.in.java.entity.LogEntry
+ * @see
  */
 @Setter
 @Getter

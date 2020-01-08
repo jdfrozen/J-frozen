@@ -234,7 +234,7 @@ public class DefaultNode<T> implements Node<T>, LifeCycle, ClusterMembershipChan
             .term(currentTerm)
             .build();
 
-        // 预提交到本地日志, TODO 预提交
+        // 预提交到本地日志, TODO 预提交 目前是已经提交
         logModule.write(logEntry);
         LOGGER.info("write logModule success, logEntry info : {}, log index : {}", logEntry, logEntry.getIndex());
 

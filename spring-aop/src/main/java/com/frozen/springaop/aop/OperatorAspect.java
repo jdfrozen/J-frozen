@@ -33,6 +33,22 @@ public class OperatorAspect {
         System.out.println("AOP Before Advice...");
     }
 
+	@Around("pointCut()")
+	public Object around(ProceedingJoinPoint pjp){
+		System.out.println("AOP Aronud before...");
+		Method method = ((MethodSignature) pjp.getSignature()).getMethod();
+		AopAnnocation annotation = method.getAnnotation(AopAnnocation.class);
+		//方法参数
+		Object[] args = pjp.getArgs();
+		try {
+			return pjp.proceed();
+		} catch (Throwable e) {
+			;log.info(annotation.name()+annotation.desc()+e);
+		}
+		System.out.println("AOP Aronud after...");
+		return null;
+	}
+
     @AfterReturning(pointcut="pointCut()",returning="returnVal")
     public void afterReturn(JoinPoint joinPoint,Object returnVal){
         System.out.println("AOP AfterReturning Advice:" + returnVal);
@@ -42,21 +58,5 @@ public class OperatorAspect {
     public void afterThrowing(JoinPoint joinPoint,Throwable error){
         System.out.println("AOP AfterThrowing Advice..." + error);
         System.out.println("AfterThrowing...");
-    }
-
-    @Around("pointCut()")
-    public Object around(ProceedingJoinPoint pjp){
-        System.out.println("AOP Aronud before...");
-        Method method = ((MethodSignature) pjp.getSignature()).getMethod();
-        AopAnnocation annotation = method.getAnnotation(AopAnnocation.class);
-        //方法参数
-        Object[] args = pjp.getArgs();
-        try {
-            return pjp.proceed();
-        } catch (Throwable e) {
-            ;log.info(annotation.name()+annotation.desc()+e);
-        }
-        System.out.println("AOP Aronud after...");
-        return null;
     }
 }

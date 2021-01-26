@@ -7,17 +7,12 @@ server:
       cookie:
         max-age: 7d
 spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/frozen_oa?useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: root
-    password: 123456
   session:
     store-type: redis
     redis:
       namespace: evidence
   redis:
-    host: 101.200.38.80
+    host: 192.168.226.130
     port: 6379
     jedis:
       pool:

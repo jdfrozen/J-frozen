@@ -1,7 +1,7 @@
 package com.frozen.raft.rpc;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Builder;
+import lombok.Data;
 import lombok.ToString;
 
 import java.io.Serializable;
@@ -9,9 +9,9 @@ import java.io.Serializable;
 /**
  * @author frozen
  */
-@Getter
-@Setter
+@Data
 @ToString
+@Builder
 public class Request<T> implements Serializable {
 
     /** 请求投票 */
@@ -30,58 +30,5 @@ public class Request<T> implements Serializable {
     private T obj;
 
     String url;
-
-    public Request() {
-    }
-
-    public Request(T obj) {
-        this.obj = obj;
-    }
-
-    public Request(int cmd, T obj, String url) {
-        this.cmd = cmd;
-        this.obj = obj;
-        this.url = url;
-    }
-
-    private Request(Builder builder) {
-        setCmd(builder.cmd);
-        setObj((T) builder.obj);
-        setUrl(builder.url);
-    }
-
-    public static  Builder newBuilder() {
-        return new Builder<>();
-    }
-
-
-    public final static class Builder<T> {
-
-        private int cmd;
-        private Object obj;
-        private String url;
-
-        private Builder() {
-        }
-
-        public Builder cmd(int val) {
-            cmd = val;
-            return this;
-        }
-
-        public Builder obj(Object val) {
-            obj = val;
-            return this;
-        }
-
-        public Builder url(String val) {
-            url = val;
-            return this;
-        }
-
-        public Request<T> build() {
-            return new Request<T>(this);
-        }
-    }
 
 }

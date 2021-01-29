@@ -1,38 +1,37 @@
 package com.frozen.raft.node;
 
-
-import com.frozen.raft.common.NodeConfig;
-import com.frozen.raft.dbreq.ClientKVAck;
-import com.frozen.raft.dbreq.ClientKVReq;
-import com.frozen.raft.entity.AentryParam;
-import com.frozen.raft.entity.AentryResult;
-import com.frozen.raft.entity.RvoteParam;
-import com.frozen.raft.entity.RvoteResult;
-import com.frozen.raft.node.LifeCycle;
+import com.frozen.raft.db.ClientKVAck;
+import com.frozen.raft.db.ClientKVReq;
 
 /**
  *
  * @author frozen
  */
-public interface Node<T> extends LifeCycle {
+
+public interface Node<T> {
+
+	/**
+	 * 节点上线
+	 * @throws Throwable
+	 */
+	void init() throws Throwable;
+
+	/**
+	 *  节点自我下线
+	 * @throws Throwable
+	 */
+	void destroy() throws Throwable;
+
+	/**
+	 * 处理请求投票 RPC.
+	 *
+	 * @param param
+	 * @return
+	 */
+	RvoteResult handlerRequestVote(RvoteParam param);
 
     /**
-     * 设置配置文件.
-     *
-     * @param config
-     */
-    void setConfig(NodeConfig config);
-
-    /**
-     * 处理请求投票 RPC.
-     *
-     * @param param
-     * @return
-     */
-    RvoteResult handlerRequestVote(RvoteParam param);
-
-    /**
-     * 处理附加日志请求.
+     * 处理附加日志请求.（包含心跳）
      *
      * @param param
      * @return
@@ -53,5 +52,7 @@ public interface Node<T> extends LifeCycle {
      * @return
      */
     ClientKVAck redirect(ClientKVReq request);
+
+
 
 }

@@ -16,7 +16,7 @@
     <properties>
         <java.version>1.8</java.version>
         <xxl-job-core.version>1.9.2</xxl-job-core.version>
-        <jetty-server.version>9.2.24.v20180105</jetty-server.version>
+        <jetty-server.version>10.0.10</jetty-server.version>
     </properties>
 
     <dependencies>
